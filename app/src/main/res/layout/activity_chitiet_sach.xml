@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChitietSachActivity">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/hdct" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#F20F0F"
+                android:text="Tên : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="#F20F0F"
+                android:id="@+id/chitiet_name"
+                android:textSize="20dp"
+                android:text="Tên : Doraemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#F20F0F"
+                android:text="Ma : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="#F20F0F"
+                android:id="@+id/chitiet_ma"
+                android:textSize="20dp"
+                android:text="Tên : Doraemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#F20F0F"
+                android:text="Giá: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="#F20F0F"
+                android:id="@+id/chitet_gia"
+                android:textSize="20dp"
+                android:text="Tên : Doraemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:background="#707070"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:textColor="#2113F0"
+            android:textSize="25dp"
+            android:text="Thông tin chi tiết"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+       <LinearLayout
+           android:weightSum="4"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <TextView
+               android:layout_weight="1"
+           android:text="Mã Thể loại :"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_weight="3"
+               android:id="@+id/chitiet_theloai"
+               android:text=" Mã Thể loại :"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:text="Nha xuat ban :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_weight="3"
+                android:id="@+id/chitiet_nxb"
+                android:text="Thể loại :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:text="So luong :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_weight="3"
+                android:id="@+id/chitiet_soluong"
+                android:text="Thể loại :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:text="Mo ta :"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_weight="3"
+                 android:textSize="13sp"
+                android:text="Đây là sản phẩm do nhà xuất bản Phương Nam tái bản và sản suất"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
