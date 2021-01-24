@@ -9,28 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.ChitietSachActivity"></activity>
-        <activity android:name=".activity.Update_SachActivity" />
-        <activity android:name=".activity.HDCTActivity" />
-        <activity android:name=".activity.ToptrendActivity" />
-        <activity android:name=".activity.ThongkeActivity" />
-        <activity android:name=".activity.HoadonActivity" />
+        <activity android:name=".Activity.ChitietSachActivity"></activity>
+        <activity android:name=".Activity.Update_SachActivity" />
+        <activity android:name=".Activity.HDCTActivity" />
+        <activity android:name=".Activity.ToptrendActivity" />
+        <activity android:name=".Activity.ThongkeActivity" />
+        <activity android:name=".Activity.HoadonActivity" />
         <activity
-            android:name=".activity.TheloaiActivity"
-            android:parentActivityName=".activity.NguoidungActivity" />
-        <activity android:name=".activity.SachActivity" />
-        <activity android:name=".activity.them" />
-        <activity android:name=".activity.NguoidungActivity" />
+            android:name=".Activity.TheloaiActivity"
+            android:parentActivityName=".Activity.NguoidungActivity" />
+        <activity android:name=".Activity.SachActivity" />
+        <activity android:name=".Activity.them" />
+        <activity android:name=".Activity.NguoidungActivity" />
         <activity
-            android:name=".activity.MenuActivity"
+            android:name=".Activity.MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.DangnhapActivity"
+            android:name=".Activity.DangnhapActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoBar" />
         <activity
-            android:name=".activity.Manhinhchao"
+            android:name=".Activity.Manhinhchao"
             android:screenOrientation="portrait"
             android:theme="@style/NoBar">
             <intent-filter>

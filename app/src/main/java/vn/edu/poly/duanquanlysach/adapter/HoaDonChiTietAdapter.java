@@ -7,22 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.behavior.HideBottomViewOnScrollBehavior;
-
 import java.util.List;
-import java.util.zip.Inflater;
 
 import vn.edu.poly.duanquanlysach.R;
-import vn.edu.poly.duanquanlysach.model.HoaDonChiTietClass;
-import vn.edu.poly.duanquanlysach.sqlite.Hdctsqlite;
+import vn.edu.poly.duanquanlysach.Model.HoaDonChiTietClass;
+import vn.edu.poly.duanquanlysach.Sqlite.Hdctsqlite;
 
 public class HoaDonChiTietAdapter extends RecyclerView.Adapter<HoaDonChiTietAdapter.ViewHolder> {
     List<HoaDonChiTietClass> list;

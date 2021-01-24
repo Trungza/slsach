@@ -16,14 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 import vn.edu.poly.duanquanlysach.R;
-import vn.edu.poly.duanquanlysach.activity.TheloaiActivity;
-import vn.edu.poly.duanquanlysach.model.Nguoidungclass;
-import vn.edu.poly.duanquanlysach.model.Theloaiclass;
-import vn.edu.poly.duanquanlysach.sqlite.Nguoidungsql;
+import vn.edu.poly.duanquanlysach.Model.Nguoidungclass;
+import vn.edu.poly.duanquanlysach.Sqlite.Nguoidungsql;
 
 public class NguoiDungAdapter extends RecyclerView.Adapter<NguoiDungAdapter.ViewHolder> implements Filterable {
     List<Nguoidungclass> list;

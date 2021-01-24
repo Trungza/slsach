@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:padding="8dp"
     android:layout_height="match_parent"
-    tools:context=".activity.Update_SachActivity">
+    tools:context=".Activity.Update_SachActivity">
     <TextView
         android:textSize="32dp"
         android:textStyle="bold"

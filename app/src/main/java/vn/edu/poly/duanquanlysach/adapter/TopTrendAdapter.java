@@ -1,26 +1,19 @@
 package vn.edu.poly.duanquanlysach.adapter;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.poly.duanquanlysach.R;
-import vn.edu.poly.duanquanlysach.model.Sachclass;
+import vn.edu.poly.duanquanlysach.Model.Sachclass;
 
 public class TopTrendAdapter extends RecyclerView.Adapter<TopTrendAdapter.ViewHolder> {
     List<Sachclass> list;

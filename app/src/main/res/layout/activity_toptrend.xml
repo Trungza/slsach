@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFEBEE"
     android:orientation="vertical"
-    tools:context=".activity.SachActivity">
+    tools:context=".Activity.SachActivity">
 <LinearLayout
     android:padding="8dp"
     android:id="@+id/hien"

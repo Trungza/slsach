@@ -3,7 +3,6 @@ package vn.edu.poly.duanquanlysach.adapter;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,12 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import vn.edu.poly.duanquanlysach.R;
-import vn.edu.poly.duanquanlysach.activity.MenuActivity;
-import vn.edu.poly.duanquanlysach.activity.TheloaiActivity;
-import vn.edu.poly.duanquanlysach.model.Hoadonclass;
-import vn.edu.poly.duanquanlysach.model.Nguoidungclass;
-import vn.edu.poly.duanquanlysach.model.Theloaiclass;
-import vn.edu.poly.duanquanlysach.sqlite.Theloaisql;
+import vn.edu.poly.duanquanlysach.Model.Theloaiclass;
+import vn.edu.poly.duanquanlysach.Sqlite.Theloaisql;
 
 public class TheLoaiAdapter extends RecyclerView.Adapter<TheLoaiAdapter.ViewHolder> implements Filterable {
     List<Theloaiclass> list;

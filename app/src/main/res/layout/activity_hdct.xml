@@ -7,7 +7,7 @@
     android:layout_margin="2dp"
     android:background="#FFE0B2"
     android:orientation="vertical"
-    tools:context=".activity.HDCTActivity">
+    tools:context=".Activity.HDCTActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,16 +19,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
-import org.w3c.dom.Text;
-
 import java.util.Calendar;
 import java.util.List;
 
 import vn.edu.poly.duanquanlysach.R;
-import vn.edu.poly.duanquanlysach.activity.HoadonActivity;
-import vn.edu.poly.duanquanlysach.model.Hoadonclass;
-import vn.edu.poly.duanquanlysach.model.Nguoidungclass;
-import vn.edu.poly.duanquanlysach.sqlite.Hoadonsql;
+import vn.edu.poly.duanquanlysach.Model.Hoadonclass;
+import vn.edu.poly.duanquanlysach.Sqlite.Hoadonsql;
 
 public class HoaDonAdapter extends RecyclerView.Adapter<HoaDonAdapter.ViewHolder> {
     List<Hoadonclass> list;
