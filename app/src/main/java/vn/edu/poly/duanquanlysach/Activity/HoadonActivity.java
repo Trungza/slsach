@@ -41,7 +41,7 @@ public class HoadonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hoadon);
-        setTitle("Hóa đơn");
+        setTitle("Hóa đơn.");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         rcv_hoadon = findViewById(R.id.rcv_hoadon);
         list = new ArrayList<>();
@@ -98,7 +98,7 @@ public class HoadonActivity extends AppCompatActivity {
         imgDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(HoadonActivity.this, "chọn ngày", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HoadonActivity.this, "chọn ngày.", Toast.LENGTH_SHORT).show();
                 Calendar calendar = Calendar.getInstance();
                 int year = calendar.get(Calendar.YEAR);
                 int month = calendar.get(Calendar.MONTH);
@@ -123,9 +123,9 @@ public class HoadonActivity extends AppCompatActivity {
                 hoadonclass.ngaymuahang = date;
                 long result = hoadonsql.insertHoaDon(hoadonclass);
                 if (result > 0) {
-                    Toast.makeText(getApplicationContext(), "thêm thành công", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Thêm thành công", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(getApplicationContext(), "không thành công", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Không thành công", Toast.LENGTH_SHORT).show();
                 }
                 adapter.notifyDataSetChanged();
                 list = hoadonsql.getallHoaDon();
@@ -139,7 +139,7 @@ public class HoadonActivity extends AppCompatActivity {
         btnhuyHoadon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "hủy thành công", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Hủy thành công", Toast.LENGTH_SHORT).show();
                 alertDialog.dismiss();
             }
         });
